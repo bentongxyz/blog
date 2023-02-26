@@ -2,7 +2,7 @@ const siteMetadata = {
   title: "Ben's Personal Blog",
   author: 'Benjamin Tong',
   headerTitle: "en's Blog",
-  description: 'A blog on software engineer, functional programming and abstract theories.',
+  description: 'A blog on software engineering, functional programming and category theory.',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
