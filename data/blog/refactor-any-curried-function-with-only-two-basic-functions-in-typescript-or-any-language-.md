@@ -150,7 +150,7 @@ const _1243 = flip3_4(_1234)
 assert.deepStrictEqual(_1243('1')('2')('4')('3'), '1234')
 ```
 
-In fact, you can go crazy and create functions that swap arguments at arbitrarily deepl nested level:
+In fact, you can go crazy and create functions that swap arguments at arbitrarily deep nested level:
 
 ```ts
 type Flip6_7 = <A, B, C, D, E, F, G, H>(
@@ -218,7 +218,7 @@ const _getPaymentAmountWithString = argumnts4(parseFloat)(getPaymentAmount)
 assert.deepStrictEqual(_getPaymentAmountWithString(10)(2)(5)('0.2'), 18)
 ```
 
-THe fourth argument `taxRate` now takes a `string` instead of a `number`, as promised.
+The fourth argument `taxRate` now takes a `string` instead of a `number`, as promised.
 
 ## Conclusion
 
@@ -226,6 +226,6 @@ We covered a lot of grounds.
 
 With two basic functions `compose` and `flip`, we can generate a bunch of functions that swap and/or alter arguments at any level, for any curried function. In addition, this approach comes with the following benefits:
 
-- **Purely functional**: this means that it comes with all the benefits of FP: referential transparency, testability, conciseness etc.
+- **Purely functional**: this means that it comes with all the benefits of FP: referential transparency, testability, conciseness, etc.
 - **Generic & mechanical**: as mentioned above, one could write a bunch of these functions and export them as a library. Then, it can be applied anywhere.
 - **Universal**: finally, since the underlying mechanics is "just maths", it is applicable to any programming languages, not just Typescript.
