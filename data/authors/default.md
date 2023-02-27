@@ -1,7 +1,7 @@
 ---
 name: Benjamin Tong
 avatar: /static/images/avatar.png
-occupation: Techical Lead
+occupation: Technical Leader
 email: ben@bentong.xyz
 twitter: https://twitter.com/bentongxyz
 github: https://github.com/bentongxyz
